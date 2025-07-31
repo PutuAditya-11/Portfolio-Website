@@ -22,7 +22,7 @@ export default function Contact() {
       const data = await response.json()
 
       if (data.success) {
-        setResult("Message sent successfully! I'll get back to you soon.")
+        setResult("Message sent successfully! Ill get back to you soon.")
         ;(event.target as HTMLFormElement).reset()
         
         // Clear result message after 5 seconds
@@ -55,7 +55,7 @@ export default function Contact() {
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.
+              Ready to bring your ideas to life? Let&apos;s discuss your next project and create something amazing together.
             </p>
           </div>
           
@@ -64,10 +64,10 @@ export default function Contact() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6">
-                  Let's Work Together
+                  Let&apos;s Work Together
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. 
+                  I&apos;m always interested in new opportunities and exciting projects. 
                   Whether you have a question or just want to say hi, feel free to reach out!
                 </p>
               </div>
