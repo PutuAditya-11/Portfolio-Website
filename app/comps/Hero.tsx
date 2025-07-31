@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-              Hi, I'm <span className="text-blue-600 dark:text-blue-400">Putu Aditya Dharma Widhidarsana</span>
+              Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Putu Aditya Dharma Widhidarsana</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
               Full Stack Enthusiast
