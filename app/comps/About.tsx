@@ -29,12 +29,12 @@ export default function About() {
                 Who I Am
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                I'm a passionate full-stack developer with experience in creating 
+                I&apos;m a passionate full-stack developer with experience in creating 
                 web applications using modern technologies. I love solving problems 
                 and turning ideas into reality through code.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                When I'm not coding, you can find me exploring new technologies, 
+                When I&apos;m not coding, you can find me exploring new technologies, 
                 reading tech blogs, or working on personal projects that challenge 
                 my skills and creativity.
               </p>
