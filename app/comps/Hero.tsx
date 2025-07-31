@@ -42,8 +42,7 @@ export default function Hero() {
                   width={320}
                   height={320}
                   className="w-full h-full object-cover"
-                  priority
-                />
+                  />
               </div>
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full animate-pulse"></div>
