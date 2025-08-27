@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "E-Commerce Website",
     description: "A full-stack e-commerce platform built with PHP, featuring product catalog, shopping cart, and payment integration.",
-    image: "/images/projects/e-commerce-website.jpg",
+    image: "/Images/Projects/e-commerce-website.jpg",
     technologies: ["PHP", "Blade", "Javascript", "HTML","CSS"],
     liveUrl: "http://miratara.site/",
     githubUrl: "https://github.com/Andika12505/Miratara"
@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Stock Management App", 
     description: "A simple collaborative stock management application.",
-    image: "/images/projects/task-manager-preview.png",
+    image: "/Images/Projects/task-manager-preview.png",
     technologies: ["Python", "MongoDB"],
     liveUrl: "https://taskmanager-demo.netlify.app",
     githubUrl: "https://github.com/PutuAditya-11/CollegeRep"

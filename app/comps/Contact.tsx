@@ -10,7 +10,6 @@ export default function Contact() {
     
     const formData = new FormData(event.target as HTMLFormElement)
     
-    // Ganti dengan access key Anda dari web3forms.com
     formData.append("access_key", "1097b2c3-d069-4f6b-97b9-78ea6f23b3b9")
 
     try {
@@ -22,7 +21,7 @@ export default function Contact() {
       const data = await response.json()
 
       if (data.success) {
-        setResult("Message sent successfully! I'll get back to you soon.")
+        setResult("Message sent successfully! Ill get back to you soon.")
         ;(event.target as HTMLFormElement).reset()
         
         // Clear result message after 5 seconds
