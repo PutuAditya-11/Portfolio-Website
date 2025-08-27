@@ -24,6 +24,9 @@ export default function Header() {
             <Link href="#projects" className="text-gray-900 hover:text-blue-600 transition-colors">
               Projects
             </Link>
+            <Link href="/blog" className="text-gray-900 hover:text-blue-600 transition-colors">
+              Blog
+            </Link>
             <Link href="#contact" className="text-gray-900 hover:text-blue-600 transition-colors">
               Contact
             </Link>
@@ -56,6 +59,9 @@ export default function Header() {
             </Link>
             <Link href="#skills" className="block py-2 text-gray-600 hover:text-gray-900">
               Skills
+            </Link>
+            <Link href="/blog" className="block py-2 text-gray-600 hover:text-gray-900">
+              Blog
             </Link>
             <Link href="#contact" className="block py-2 text-gray-600 hover:text-gray-900">
               Contact
